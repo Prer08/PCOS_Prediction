@@ -20,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages-d build"
   },
   "eslintConfig": {
     "extends": [
@@ -44,5 +46,8 @@
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.2"
+  }
+  "homepage": {
+    "https://Prer08.github.io/PCOS_Prediction"
   }
 }
